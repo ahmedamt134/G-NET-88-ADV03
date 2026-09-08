@@ -40,8 +40,52 @@
 
             //List<string> gradeStrings = grades.Select(x => $"Grade: {x}").ToList(); 
             #endregion
-#endregion
+            #region Question2
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+
+            //leaderboard.Add(500, "Ahmed");
+            //leaderboard.Add(200, "Sara");
+            //leaderboard.Add(800, "Ali");
+            //leaderboard.Add(350, "Mona");
+
+
+            //foreach (var player in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {player.Key}, Player: {player.Value}");
+            //}
+
+            //int firstKey = leaderboard.First().Key;
+            //string firstValue = leaderboard.First().Value;
+
+            //Console.WriteLine( firstKey);
+            //Console.WriteLine(firstValue);
+
+            //bool scoreExists = leaderboard.ContainsKey(500);
+
+            //Console.WriteLine(scoreExists);
+
+
+
+            //if (leaderboard.TryGetValue(500, out string playerName))
+            //{
+            //    Console.WriteLine($"Player with score 999: {playerName}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No player with score 999");
+            //}
+
+            //leaderboard.Remove(200);
+
+
+            //foreach (var player in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {player.Key}, Player: {player.Value}");
+            //}
+            #endregion
+
         }
 
     }
 }
+
